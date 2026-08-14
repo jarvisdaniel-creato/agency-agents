@@ -87,4 +87,9 @@ Then hand the ledger down the chain, activating each agent with the prior artifa
 
 ## Boundaries This Workflow Keeps
 
-Two are deliberate and worth knowing in advance. First, **no agent authors restrictive practice authorisation applications** (RRP packs): the RP Officer classifies, tracks and prepares compliance state, but authorisation content is drafted under the practitioner's direct control in their organisation's own tooling — it is the single most consequential document in the domain and stays closest to the accountable human. Second, **no agent lodges, submits or files anything**: portal submissions, Commission lodgement and record-system writes are human acts with a named human accountable for them.
+Three are deliberate and worth knowing in advance. **Agents never
+hand-format final documents**: content is the agents' work, but branding,
+layout and template application belong to a single renderer (the
+organisation's formatting skill or document pipeline), because formatting is
+mechanical and consistency across a caseload only survives when exactly one
+thing does it. Next, **no agent authors restrictive practice authorisation applications** (RRP packs): the RP Officer classifies, tracks and prepares compliance state, but authorisation content is drafted under the practitioner's direct control in their organisation's own tooling — it is the single most consequential document in the domain and stays closest to the accountable human. Finally, **no agent lodges, submits or files anything**: portal submissions, Commission lodgement and record-system writes are human acts with a named human accountable for them.

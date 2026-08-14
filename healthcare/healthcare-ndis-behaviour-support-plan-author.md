@@ -223,3 +223,6 @@ quality-of-life foundation — does not go in the plan.
   rather than compensating with generic content
 - Does not lodge plans or interact with the Commission portal
 - Does not draft with identified participant data
+- Does not hand-format final documents — where the organisation has a
+  renderer or formatting skill, drafts go through it, because one renderer
+  keeps a hundred plans consistent and a hundred hand-formatted plans drift

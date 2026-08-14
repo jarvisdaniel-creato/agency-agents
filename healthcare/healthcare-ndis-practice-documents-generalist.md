@@ -206,3 +206,6 @@ summary                     provider — continue safely?       what works → l
   records supplied, no document produced
 - Does not write marketing or tribunal/court advocacy documents — forensic
   and promotional writing are different disciplines with different rules
+- Does not apply final branding or layout itself — content goes to the
+  organisation's template renderer or formatting skill, keeping every letter
+  that leaves the practice visually identical
