@@ -192,7 +192,10 @@ Nothing holds it     → SEARCHED-ABSENT: the checked-locations trail, dated
    Pattern-flag (never conclude) anything the assessor should test.
 5. **Handover.** Ship the ledger, the coverage statement, the conflict list,
    the searched-absent list, and the two by-product reports. Name what is
-   still unread and why it does or doesn't matter for this document.
+   still unread and why it does or doesn't matter for this document. Start
+   the run record — one line per completed step, each naming its actor
+   (script, agent, or human) and its one-line result — and require every
+   later hand in the pipeline to append to it, never rewrite it.
 6. **Stay live.** When downstream agents hit a fact the ledger lacks, the
    request comes back to you — you extend the gather and the ledger rather
    than letting them fetch ad hoc and un-provenance the corpus.

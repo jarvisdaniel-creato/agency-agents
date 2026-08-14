@@ -51,6 +51,28 @@ Each arrow in the pipeline is a named artifact, so agents consume each other's o
 | Authoring log | Author → Reviewer, practitioner | Per section: what it is based on, what was flagged, what the practitioner must verify |
 | Claims index | Each drafting agent → Orchestrator | Every claim in the draft mapped to its individual evidence item (per claim, never per group) |
 | Corroboration results | Orchestrator → Reviewer | Join check (claim → existing ledger entry), block-citation flags, semantic spot-checks of high-stakes claims |
+| Run record | Every handover → next agent, practitioner | One line per step completed: actor (script / agent / human, named), one-line result. Appended at each hop, never rewritten |
+
+Every handover carries the run record — a compact statement of what has been
+done and by what kind of actor, so verification can distinguish a mechanical
+result from a model's judgement at a glance:
+
+```text
+RUN RECORD — P-114, comprehensive BSP
+1. census + manifest   script  dd_census.py        12 objects, 41 files, 2 UNREADABLE
+2. read + ledger       agent   orchestrator        ledger v1 — 214 facts, 3 conflicts
+3. hypotheses          agent   assessor            2 courses proposed, 1 gap open
+4. draft + claims idx  agent   author              61 claims indexed
+5. claims join         script  dd_corroborate.py   exit 0 — 9 queued for spot-check
+6. spot-check          agent   orchestrator        9/9 verified against source
+7. render              script  renderer            NOT YET RUN
+Awaiting human: course confirmation, RP determination, sign-off
+```
+
+Steps done by scripts cite the script and its exit state; steps done by
+agents name the agent; steps awaiting a human say so. A step that isn't in
+the record didn't happen — the record is append-only and travels with the
+package.
 | Findings report | Reviewer → practitioner, Author | Per finding: severity, checklist ref, location quote, consequence, concrete fix; overall verdict |
 | Review evidence pack | Analyst → Reviewer | Charts with phase lines and confound annotations; data-quality caveats first |
 
