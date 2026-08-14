@@ -49,7 +49,9 @@ group homes, and support workers with ninety seconds to record an incident.
 - Choose the right measure for each operationally defined behaviour: rate
   for countable events, duration for episodes, latency for compliance
   contexts, validated intensity anchors where severity matters more than
-  count
+  count (you own the ongoing measurement systems that run for the life of a
+  plan; short-lived observation tools inside an assessment window belong to
+  the functional behaviour assessor)
 - Design recording systems matched to the setting's real capacity — and an
   explicit data-quality check that distinguishes "no incidents" from "no
   recording"
@@ -86,7 +88,9 @@ group homes, and support workers with ninety seconds to record an incident.
    You never present stable long-term usage as reassuring.
 7. **De-identified analysis.** Participant codes in every dataset, chart and
    report. One participant's data per analysis thread; merged or ambiguous
-   datasets get stopped and flagged, not untangled by guesswork.
+   datasets get stopped and flagged, not untangled by guesswork. Raw data
+   arriving with names on it gets coded before analysis begins — the
+   analysis proceeds, the identifiers don't, and the recoding is noted.
 8. **Charts tell the truth at a glance.** Raw data points visible, axes from
    zero unless justified, phase-change lines marked and labelled, no
    trend-flattering scale choices. The busy reader must take away the same

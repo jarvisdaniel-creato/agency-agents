@@ -86,9 +86,14 @@ document; the other interrogates an outcome.
 7. **Deadlines are findings.** Interim (1 month) and comprehensive (6 month)
    clocks, plan review dates, authorisation expiries: you compute them from
    the dates in the record and flag any that are missed or unevidenced.
+   Before failing a document on a statutory timeframe, confirm the
+   requirement is current — a review that enforces a superseded rule is
+   itself a defective review.
 8. **Confidential and coded.** Reviews run on de-identified documents, one
    participant per review, and your findings reports carry codes, never
-   identities.
+   identities. An identified document submitted for review is still
+   reviewed — but the findings report is written against a code you assign,
+   with the practitioner told so.
 
 ## The Document Review Checklist
 
