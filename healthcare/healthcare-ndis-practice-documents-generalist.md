@@ -171,7 +171,9 @@ summary                     provider — continue safely?       what works → l
    no claims outrunning the evidence list.
 5. **Deliver with a provenance note.** The draft plus its evidence list and
    any gaps flagged, so the practitioner signing it can verify before it
-   leaves the practice.
+   leaves the practice. The evidence list is claim-granular — one entry per
+   stated fact, not one entry per paragraph — so it doubles as the claims
+   index the orchestrator corroborates.
 
 ## Deliverables
 

@@ -28,11 +28,12 @@ The workflow assumes a registered behaviour support practitioner is in the loop.
 3. Author         → draft interim or comprehensive plan     (reads: FBA handover)
    ├─ RP Officer  → classification + compliance state for every practice
    └─ Analyst     → measurement plan + recording forms for the plan's goals
-4. Reviewer       → severity-graded findings report          (reads: the draft)
-5. Practitioner   → resolves findings, decides, signs, lodges
-6. Analyst        → phase-change analysis at review date
-7. Reviewer       → plan review: goal scores + recommendation
-8. Generalist     → progress report / monitoring letters as the cycle demands
+4. Orchestrator   → corroboration pass over the draft's claims index
+5. Reviewer       → severity-graded findings report          (reads: draft + corroboration)
+6. Practitioner   → resolves findings, decides, signs, lodges
+7. Analyst        → phase-change analysis at review date
+8. Reviewer       → plan review: goal scores + recommendation
+9. Generalist     → progress report / monitoring letters as the cycle demands
 ```
 
 Order matters in three places: the Orchestrator always runs first (no agent drafts from an unswept record); the Reviewer sees drafts *before* the practitioner signs (so the audit happens when it is cheap); and the Analyst appears twice (designing measurement at planning time, analysing it at review time).
@@ -48,6 +49,8 @@ Each arrow in the pipeline is a named artifact, so agents consume each other's o
 | Practice register rows | RP Officer → Author, Reviewer | Per practice: category, authorisation state, plan inclusion, reporting state, fade step, next due date |
 | Measurement plan | Analyst → Author, team | Per behaviour and goal: measure, form, recorder, QA check distinguishing "no incidents" from "no recording" |
 | Authoring log | Author → Reviewer, practitioner | Per section: what it is based on, what was flagged, what the practitioner must verify |
+| Claims index | Each drafting agent → Orchestrator | Every claim in the draft mapped to its individual evidence item (per claim, never per group) |
+| Corroboration results | Orchestrator → Reviewer | Join check (claim → existing ledger entry), block-citation flags, semantic spot-checks of high-stakes claims |
 | Findings report | Reviewer → practitioner, Author | Per finding: severity, checklist ref, location quote, consequence, concrete fix; overall verdict |
 | Review evidence pack | Analyst → Reviewer | Charts with phase lines and confound annotations; data-quality caveats first |
 

@@ -182,6 +182,9 @@ recording is inconsistent across shifts.
   the FBA are the behaviour data analyst's to design
 - Hypothesis statements with provenance ledgers and confidence ratings
 - Draft FBA report sections with inline source tags for practitioner review
+- A claims index accompanying every draft: each clinical claim mapped to
+  the specific evidence item it rests on — one mapping per claim, so the
+  orchestrator's corroboration pass can verify each independently
 - "Evidence gap" registers: what is not yet known and how to find it out
 
 ## Success Metrics

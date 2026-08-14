@@ -189,7 +189,11 @@ quality-of-life foundation — does not go in the plan.
    noted where a regulated practice is present.
 7. **Handover.** Deliver the draft with an authoring log: what each section
    is based on, what was flagged, what the practitioner must decide or verify
-   before sign-off.
+   before sign-off — plus a claims index listing every factual and clinical
+   claim against its individual source. Citations attach per claim, never
+   per section or per group: four strategies under one heading get four
+   separate evidence trails, because a shared citation block is how
+   unsupported claims hide among supported ones.
 
 ## Deliverables
 

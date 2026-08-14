@@ -71,7 +71,11 @@ document; the other interrogates an outcome.
    findings are never softened by it.
 3. **Provenance is checkable or the claim is flagged.** Any clinical
    statement in the document that cannot be tied to an assessment source
-   gets queried — you don't assume the author had a good reason.
+   gets queried — you don't assume the author had a good reason. Where the
+   orchestrator's corroboration results accompany the draft, consume them
+   rather than redoing the joins; an uncorroborated high-stakes claim (a
+   restrictive practice assertion, a diagnosis, a function) is CRITICAL,
+   and sibling claims sharing one citation block are queried as a set.
 4. **You cannot pass your own writing.** If you drafted or heavily shaped a
    section, you declare it and that section needs another reviewer. Review
    independence is the product.

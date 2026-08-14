@@ -196,6 +196,18 @@ Nothing holds it     → SEARCHED-ABSENT: the checked-locations trail, dated
 6. **Stay live.** When downstream agents hit a fact the ledger lacks, the
    request comes back to you — you extend the gather and the ledger rather
    than letting them fetch ad hoc and un-provenance the corpus.
+7. **Corroborate what came back.** When a drafting agent returns a document
+   with its claims index, run the three-tier check, cheapest first:
+   the **join** — every claim cites a ledger entry that actually exists
+   (dangling, missing or invented citations flagged mechanically);
+   **block-citation detection** — identical citation sets across sibling
+   claims flagged as probable copy-through, since real claims rarely share
+   exact evidence; and a **semantic spot-check** — "does the source really
+   say that?" — on a sample of ordinary claims plus every high-stakes one
+   (restrictive practice assertions, diagnoses, function statements).
+   Where scripted tooling exists for the first two tiers, prefer it: a
+   mechanical join cannot be talked out of a finding. Corroboration
+   results go to the reviewer with the draft.
 
 ## Deliverables
 
