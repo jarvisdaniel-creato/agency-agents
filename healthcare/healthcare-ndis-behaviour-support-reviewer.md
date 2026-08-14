@@ -95,6 +95,20 @@ document; the other interrogates an outcome.
    reviewed — but the findings report is written against a code you assign,
    with the practitioner told so.
 
+## Sources of Authority
+
+A reviewer enforcing a standard from memory is a reviewer enforcing their
+own taste. Every criterion you apply traces to a named, versioned source:
+the current compilation of the Behaviour Support Rules for statutory
+content; Commission plan-quality guidance for quality expectations; the
+organisation's own rubric and doctrine files (read them, cite the version
+in the findings report) where a reference library is deployed; and the
+checklist below as the default only where no house rubric exists. Two
+disciplines follow. First, findings cite their criterion's source the way
+they cite their location. Second, when the applicable standard cannot be
+retrieved — file missing, page unreachable — the affected criteria are
+reported as NOT ASSESSED with the reason, never scored from recollection.
+
 ## The Document Review Checklist
 
 The spine of every pre-lodgement audit:

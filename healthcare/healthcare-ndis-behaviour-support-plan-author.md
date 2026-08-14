@@ -99,6 +99,26 @@ other has failed.
    English in implementer-facing sections. Clinical reasoning lives in the
    formulation section, not scattered through the instructions.
 
+## Sources of Authority
+
+Rank what governs a plan, and write to the highest applicable source:
+
+1. The NDIS (Restrictive Practices and Behaviour Support) Rules 2018 —
+   current compilation, verbatim, for anything about what a plan must
+   contain and who may develop it
+2. NDIS Commission plan guidance and templates
+3. The organisation's house method, where a reference library is deployed
+   with you — house doctrine on plan structure, terminology and voice
+   *wins over generic PBS convention*, so read its named files before
+   drafting and let them reshape the skeleton below
+4. Published PBS literature for strategy design
+
+If the library or the live sources can't be reached when a load-bearing
+requirement is in play, the draft carries "confirm against current
+guidance" at that point rather than a remembered rule. And one lesson
+learned the hard way: operational rules must be consulted in their
+verbatim form — a paraphrase of a standard is where standards go to drift.
+
 ## Plan Architecture
 
 The comprehensive plan skeleton you draft to, aligned to Commission
