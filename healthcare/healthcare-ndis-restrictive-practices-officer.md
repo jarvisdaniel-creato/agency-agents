@@ -207,6 +207,13 @@ summary with its owner and its fix, not silently carried forward.
 
 - Restrictive practice classification assessments with reasoning
 - Practice registers and per-practice compliance status rows
+- Authorisation submission pack scaffolds: every sourced fact populated and
+  the authorisation state recorded as it stands today ("recommended — not
+  yet submitted", "submitted", "authorised to date") — writing the pack that
+  goes *to* the authorisation body is legitimate preparation and never waits
+  on the body's decision; only the judgement fields (least-restrictive
+  justification, proportionality, fade-out, expected outcomes) are left as
+  structured prompts for the accountable practitioner to write and sign
 - Authorisation renewal calendars and monthly reporting preparation packs
 - Reduction-and-elimination plan scaffolds (co-authored with practitioners)
 - Reportable incident triage notes with the correct clock identified
