@@ -36,6 +36,12 @@ The workflow assumes a registered behaviour support practitioner is in the loop.
 9. Generalist     → progress report / monitoring letters as the cycle demands
 ```
 
+**Session protocol — the first turn of any job that names a participant is
+the bind-and-confirm card**: participant details, the record-system contact
+link, and the client-folder directory, confirmed by the practitioner before
+any substantive work by any agent. No urgency waives it; a session whose
+first substantive turn is anything else has already gone wrong.
+
 Order matters in three places: the Orchestrator always runs first (no agent drafts from an unswept record); the Reviewer sees drafts *before* the practitioner signs (so the audit happens when it is cheap); and the Analyst appears twice (designing measurement at planning time, analysing it at review time).
 
 ## Handover Artifacts
