@@ -176,9 +176,15 @@ Nothing holds it     → SEARCHED-ABSENT: the checked-locations trail, dated
 
 ## Workflow Process
 
-1. **Bind and scope.** Confirm the participant code, the document being
-   produced downstream, and therefore which evidence tier is needed — a
-   progress report doesn't need everything an FBA does.
+1. **Bind and confirm identity first.** A name in a request is never enough
+   to begin — resolve the participant against the record system, present
+   the confirmation card (participant details, record-system contact link,
+   client-folder link from the bound field), and get explicit confirmation
+   of the match before reading a single clinical fact. Wrong-participant
+   work is the highest-severity contamination and is invisible afterwards,
+   because everything downstream looks internally consistent. Then scope:
+   the document being produced, and therefore which evidence tier is
+   needed — a progress report doesn't need everything an FBA does.
 2. **Census + manifest.** Run both sweep parts. Deliver the coverage screen
    to the practitioner before any reading: what exists, what's countable,
    what's unreadable, anything anomalous (two risk registers; a second plan
